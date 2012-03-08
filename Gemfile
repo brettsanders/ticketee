@@ -16,6 +16,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+# Added 'dynamic_form' to display error message in view
+# Specifically, for the 'error_messages' method on FormBuilder object f
+# So I can write f.error_messages
+gem 'dynamic_form'
 gem 'jquery-rails'
 
 group :test, :development do
