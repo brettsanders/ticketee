@@ -18,4 +18,3 @@ Feature: Creating projects
 		And I press "Create Project"
 		Then I should see "Project has not been created."
 		And I should see "Name can't be blank"
-		
